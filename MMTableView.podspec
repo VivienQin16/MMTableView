@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MMTableView"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "写给自己用的TableView，参考了微信的写法，名字我都没改……"
 
   # This description is used to generate tags and improve search results.
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MMTableView", "MMTableView/**/*.{h,m}"
+  s.source_files  = "MMTableView", "MMTableView/MMTableView/*.{h,m}"
   #s.public_header_files = "Classes/**/*.h"
 
 
