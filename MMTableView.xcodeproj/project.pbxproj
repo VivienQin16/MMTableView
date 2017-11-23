@@ -22,6 +22,7 @@
 		9F1D6A1E1FB2D77B00EEBD8E /* MMSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D6A1D1FB2D77B00EEBD8E /* MMSectionModel.m */; };
 		9F1D6A211FB2E6BD00EEBD8E /* MMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1D6A201FB2E6BD00EEBD8E /* MMTableViewController.m */; };
 		9F280AD61FB43FAF00F4829B /* MMHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F280AD51FB43FAF00F4829B /* MMHelper.m */; };
+		9F31C4B91FC6BB3B008CA1B5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F31C4B81FC6BB3B008CA1B5 /* Launch Screen.storyboard */; };
 		9F42BE3C1FB5323F0020079E /* TableConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F42BE3B1FB5323F0020079E /* TableConfig.plist */; };
 		9FBB0AD91FC2A666007F631A /* UITableView+ReusableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBB0AD81FC2A666007F631A /* UITableView+ReusableCell.m */; };
 /* End PBXBuildFile section */
@@ -69,6 +70,7 @@
 		9F1D6A201FB2E6BD00EEBD8E /* MMTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMTableViewController.m; sourceTree = "<group>"; };
 		9F280AD41FB43FAF00F4829B /* MMHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMHelper.h; sourceTree = "<group>"; };
 		9F280AD51FB43FAF00F4829B /* MMHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMHelper.m; sourceTree = "<group>"; };
+		9F31C4B81FC6BB3B008CA1B5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9F42BE3B1FB5323F0020079E /* TableConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TableConfig.plist; sourceTree = "<group>"; };
 		9FBB0AD71FC2A666007F631A /* UITableView+ReusableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+ReusableCell.h"; sourceTree = "<group>"; };
 		9FBB0AD81FC2A666007F631A /* UITableView+ReusableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+ReusableCell.m"; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		9F1D69981FB2D1A800EEBD8E = {
 			isa = PBXGroup;
 			children = (
+				9F31C4B81FC6BB3B008CA1B5 /* Launch Screen.storyboard */,
 				9F1D69A31FB2D1A800EEBD8E /* MMTableView */,
 				9F1D69A21FB2D1A800EEBD8E /* Products */,
 				76422F13D2135522F2005B40 /* Pods */,
@@ -133,6 +136,7 @@
 				9F1D69A81FB2D1A800EEBD8E /* ViewController.m */,
 				9F1D6A1F1FB2E6BD00EEBD8E /* MMTableViewController.h */,
 				9F1D6A201FB2E6BD00EEBD8E /* MMTableViewController.m */,
+				9F42BE3B1FB5323F0020079E /* TableConfig.plist */,
 				9F1D69AD1FB2D1A800EEBD8E /* Assets.xcassets */,
 				9F1D69B21FB2D1A800EEBD8E /* Info.plist */,
 				9F1D69B31FB2D1A800EEBD8E /* main.m */,
@@ -163,7 +167,6 @@
 				9F1D6A1D1FB2D77B00EEBD8E /* MMSectionModel.m */,
 				9F280AD41FB43FAF00F4829B /* MMHelper.h */,
 				9F280AD51FB43FAF00F4829B /* MMHelper.m */,
-				9F42BE3B1FB5323F0020079E /* TableConfig.plist */,
 			);
 			path = MMTableView;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F31C4B91FC6BB3B008CA1B5 /* Launch Screen.storyboard in Resources */,
 				9F42BE3C1FB5323F0020079E /* TableConfig.plist in Resources */,
 				9F1D69AE1FB2D1A800EEBD8E /* Assets.xcassets in Resources */,
 			);
