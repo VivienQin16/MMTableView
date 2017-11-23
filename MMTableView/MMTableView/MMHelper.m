@@ -46,7 +46,7 @@
 
 + (BOOL)isRouter:(NSString *)selectorName {
     if (!selectorName || [selectorName isEqualToString:@""] || selectorName.length < 2) {
-        return nil;
+        return NO;
     }
     NSString * prefix = [selectorName substringToIndex:1];
     if ([prefix isEqualToString:@"R"]) {
