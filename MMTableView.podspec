@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MMTableView"
-  s.version      = "1.3"
+  s.version      = "1.4"
   s.summary      = "写给自己用的TableView，参考了微信的写法，名字我都没改……"
 
   # This description is used to generate tags and improve search results.
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/ZWXAllen/MMTableView.git", :tag => "1.2" }
+  s.source       = { :git => "https://github.com/ZWXAllen/MMTableView.git", :tag => "1.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
