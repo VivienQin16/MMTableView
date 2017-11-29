@@ -51,6 +51,7 @@
     cellinfo.height = height;
     cellinfo.didSelectedEvent = event;
     cellinfo.delegate = delegate;
+    
     return cellinfo;
 }
 
