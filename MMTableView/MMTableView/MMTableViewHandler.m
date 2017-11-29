@@ -40,7 +40,11 @@ static NSString *TableConfigFileName = @"TableConfig";
 }
 
 - (MMTableViewInfo *)infoWithJSONFileName:(NSString *)filename deviceClass:(NSString *)deviceClass {
-    NSString * path = [[NSBundle mainBundle] pathForResource:filename ofType:@"plist"];
+    return [self infoWithJSONFileName:filename inBundle:[NSBundle mainBundle] deviceClass:deviceClass];
+}
+
+- (MMTableViewInfo *)infoWithJSONFileName:(NSString *)filename inBundle:(NSBundle *)bundle deviceClass:(NSString *)deviceClass{
+    NSString * path = [bundle pathForResource:filename ofType:@"plist"];
     NSDictionary * robotClass = [[NSDictionary alloc] initWithContentsOfFile:path];
     return [self infoWithDictionary:robotClass deviceClass:deviceClass];
 }

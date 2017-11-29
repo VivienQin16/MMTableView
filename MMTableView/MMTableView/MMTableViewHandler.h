@@ -18,6 +18,8 @@
 
 - (MMTableViewInfo *)infoWithDictionary:(NSDictionary *)robotClass deviceClass:(NSString *)deviceClass;
 
+- (MMTableViewInfo *)infoWithJSONFileName:(NSString *)filename inBundle:(NSBundle *)bundle deviceClass:(NSString *)deviceClass;
+
 - (MMTableViewInfo *)infoWifthDeviceData:(NSArray *)items;
 
 - (MMTableViewInfo *)infoWithJSONFileName:(NSString *)filename;
